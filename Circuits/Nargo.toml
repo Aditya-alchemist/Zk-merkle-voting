@@ -1,0 +1,6 @@
+[package]
+name = "zk_merkle_voting"
+type = "bin"
+authors = ["Alchemist"]
+
+[dependencies]
