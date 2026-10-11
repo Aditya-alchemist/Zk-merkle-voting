@@ -256,6 +256,29 @@ a:focus-visible {
   margin: 26px 0;
 }
 
+.credential-label {
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+  color: #c2c8d4;
+  font-size: 12px;
+}
+
+.credential-label select,
+.credential-label input {
+  width: 100%;
+  padding: 11px 12px;
+  color: #e9eaf2;
+  background: #0d1016;
+  border: 1px solid #343947;
+  border-radius: 8px;
+}
+
+.credential-label small {
+  color: #818899;
+  font-size: 10px;
+}
+
 .vote-options {
   display: grid;
   gap: 11px;
@@ -370,6 +393,19 @@ a:focus-visible {
 
 .status-icon {
   color: #a5f3d0;
+}
+
+.transaction-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #a5f3d0;
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.transaction-link:hover {
+  text-decoration: underline;
 }
 
 .privacy-card {
